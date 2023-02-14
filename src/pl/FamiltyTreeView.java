@@ -19,6 +19,7 @@ public class FamiltyTreeView implements ActionListener {
 	private JTextField cnic2;
 	private JButton button;
 	private JTextArea result;
+	
 	private InterfacePersonBO _bo;
 	
 	public FamiltyTreeView() throws SQLException {
@@ -62,13 +63,10 @@ public class FamiltyTreeView implements ActionListener {
 	}
 	public static void main(String[] args) {
 		FamiltyTreeView app;
-		try {
-			app = new FamiltyTreeView();
-			app.viewSibling();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		InterfacePersonBO _bo = null;
+
+		app = new FamiltyTreeView(_bo);
+		app.viewSibling();
 		
 //		PersonDAOStub daostub = new PersonDAOStub();
 //		PesonBo bll = new PersonBo(daoStub);

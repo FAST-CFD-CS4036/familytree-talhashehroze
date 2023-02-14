@@ -6,6 +6,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="src" path="tests"/>
+	<classpathentry kind="lib" path="C:/Users/Talha Shehroze/Documents/EclipseWork/mysql-connector-j-8.0.31.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
